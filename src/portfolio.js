@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Julia Alves",
   description:
-    "Hello! I'm Julia Alves, currently pursuing a Bachelor's degree in Audiovisual at IPCA. \n This webpage serves as a vibrant tapestry of my creative journey, where I showcase my passion for visual storytelling, innovative projects, and diverse skillset.Feel free to explore my portfolio to witness my dedication and growth in the audiovisual realm. Whether it's film, photography, or multimedia projects, each piece is a testament to my commitment to producing compelling and visually stunning content. ",
+    "Hello! I'm Julia Alves, currently pursuing a Bachelor's degree in Audiovisual at IPCA. \n This webpage serves as a vibrant tapestry of my creative journey, where I showcase my passion for visual storytelling, innovative projects, and diverse skillset.Feel free to explore my portfolio to witness my dedication and growth in the audiovisual realm.",
   og: {
     title: "Julia Alves Portfolio",
     type: "website",
@@ -21,9 +21,8 @@ const seo = {
 const greeting = {
   title: "Julia Alves",
   logo_name: "Julia Alves",
-  nickname: "ju",
   subTitle:
-  "Hello! I'm Julia Alves, currently pursuing a Bachelor's degree in Audiovisual at IPCA. \n This webpage serves as a vibrant tapestry of my creative journey, where I showcase my passion for visual storytelling, innovative projects, and diverse skillset.Feel free to explore my portfolio to witness my dedication and growth in the audiovisual realm. Whether it's film, photography, or multimedia projects, each piece is a testament to my commitment to producing compelling and visually stunning content. ",
+  "Hello! I'm Julia Alves, currently pursuing a Bachelor's degree in Audiovisual at IPCA. \n This webpage serves as a vibrant tapestry of my creative journey, where I showcase my passion for visual storytelling, innovative projects, and diverse skillset.Feel free to explore my portfolio to witness my dedication and growth in the audiovisual realm.",
   resumeLink:
     "https://drive.google.com/"
 };
@@ -48,6 +47,12 @@ const socialMediaLinks = [
     link: "https://www.instagram.com/alves_julia31/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  },
+  {
+    name: "Behance",
+    link: "https://www.instagram.com/alves_julia31/",
+    fontAwesomeIcon: "fa-behance", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#1769FF", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
@@ -651,9 +656,9 @@ const experience = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Discover my Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "Explore my audiovisual work, featuring films, photography, and multimedia creations. Each project showcases my creativity and technical skills. Join me on this artistic journey!",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -692,28 +697,23 @@ const publications = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    title: "Get in Touch",
+    profile_image_path: "ju_sorridente.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I’m excited to connect with anyone passionate about audiovisuals. Whether you have questions, project ideas, or just want to chat, I'd love to hear from you! Let's create something amazing together.",
   },
   blogSection: {
-    title: "Blogs",
+    title: "Pexels",
     subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
+      "Dive into my visual stories by visiting my Pexels page! Take a look and feel free to download and share my creations. Your feedback and support mean the world to me!",
+    link: "https://www.pexels.com/pt-br/@julia-alves-95407659/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    title: "My location",
+    subtitle: "Braga, Portugal",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "https://maps.app.goo.gl/4hDiAuCk9qHfH4oi6",
   },
   phoneSection: {
     title: "",

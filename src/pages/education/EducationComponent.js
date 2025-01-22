@@ -21,11 +21,13 @@ class Education extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="heading-div">
               <div className="heading-img-div">
-                {/* <img
-									src={require("../../assets/images/education.svg")}
+                {<img
+									src={require("../../assets/images/ju_ipca_boné.jpg")}
 									alt=""
-								/> */}
-                <EducationImg theme={theme} />
+								/> 
+                }
+                
+                {/* EducationImg theme={theme} /> */}
               </div>
               <div className="heading-text-div">
                 <h1 className="heading-text" style={{ color: theme.text }}>
@@ -34,7 +36,12 @@ class Education extends Component {
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
                 I am studying Audiovisual Design at IPCA
                 </h3>
-                <CompetitiveSites logos={competitiveSites.competitiveSites} />
+                {<img class="logoipca"
+									src={require("../../assets/images/IPCA_logo.png")}
+									alt=""
+								/> 
+                }
+                {/*<CompetitiveSites logos={competitiveSites.competitiveSites} />*/}
               </div>
             </div>
           </Fade>

@@ -14,7 +14,9 @@
 .heading-div > * {
   flex: 1;
 }
-
+.logoipca {
+    width: 300px;
+}
 .heading-img-div {
   display: flex;
   align-items: center;
@@ -26,7 +28,7 @@
 }
 
 .heading-img-div > * {
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
 }
 

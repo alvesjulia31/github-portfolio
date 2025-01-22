@@ -22,7 +22,7 @@ const greeting = {
   title: "Julia Alves",
   logo_name: "Julia Alves",
   subTitle:
-  "Hello! I'm Julia Alves, currently pursuing a Bachelor's degree in Audiovisual at IPCA. \n This webpage serves as a vibrant tapestry of my creative journey, where I showcase my passion for visual storytelling, innovative projects, and diverse skillset.Feel free to explore my portfolio to witness my dedication and growth in the audiovisual realm.",
+  "Hello! I'm Julia Alves, currently pursuing a Bachelor's degree in Audiovisual at IPCA. \n This webpage serves as a vibrant tapestry of my creative journey, where I showcase my passion for visual storytelling, innovative projects, and diverse skillset. Feel free to explore my portfolio to witness my dedication and growth in the audiovisual realm.",
   resumeLink:
     "https://drive.google.com/"
 };
@@ -54,17 +54,22 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-behance", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#1769FF", // Reference https://simpleicons.org/?q=instagram
   },
+  {
+    name: "Vimeo",
+    link: "https://vimeo.com/juliaalvesperes",
+    fontAwesomeIcon: "fa-vimeo-v", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#1AB7EA", // Reference https://simpleicons.org/?q=instagram
+  },
 ];
 
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Photographer and Videographer:",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "- Capture and Document Moments: Professionally capturing still images to preserve and narrate special moments effectively",
+        "- Create Engaging Videos: Producing videos for events, promotional content, documentaries, or creative projects, ensuring they captivate and convey the intended message",
       ],
       softwareSkills: [
         {
@@ -104,12 +109,12 @@ const skills = {
       ],
     },
     {
-      title: "Full Stack Development",
+      title: "Edition and Illustration",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "- Photo Editing: Enhancing images to improve their quality and aesthetic appeal",
+        "- Video Editing: Post-production work to ensure the final product is cohesive and engaging",
+        "- Digital Art: Creating visual representations through digital tools and techniques",
       ],
       softwareSkills: [
         {
@@ -186,13 +191,11 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Production Assistant",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "- Support and Coordination: Assisting with on-set tasks, setting up equipment, distributing scripts, managing props, and coordinating schedules and logistics",
+        "- Communication and Errands: Acting as a liaison between departments to ensure smooth workflow, and running errands such as picking up supplies or delivering documents",
       ],
       softwareSkills: [
         {

@@ -88,11 +88,12 @@ class Contact extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${addressSection["avatar_image_path"]}`)}
+                { <img
+											src={require(`../../assets/images/ju_analogica.jpg`)}
 											alt=""
-										/> */}
-                <AddressImg theme={theme} />
+                      class="terceiraimagem"
+										/> }
+                {/*<AddressImg theme={theme} />*/}
               </div>
               <div className="address-heading-text-div">
                 <h1

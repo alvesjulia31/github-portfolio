@@ -36,8 +36,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
-
+.terceiraimagem{
+  border-radius: 60%;
+}
 .blog-heading-img-div {
   align-items: center;
   justify-content: center;

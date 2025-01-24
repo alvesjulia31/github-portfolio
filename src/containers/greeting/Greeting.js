@@ -48,6 +48,7 @@ export default function Greeting(props) {
             {<img
 							alt="ju camera"
 							src={require("../../assets/images/ju_camera.jpg")}
+              class="primeirafoto"
 						></img>}
             
           </div>

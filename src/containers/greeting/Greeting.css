@@ -32,15 +32,16 @@
 
 .greeting-text {
   margin-top: 80px;
-  font-size: 70px;
+  font-size: 100px;
   line-height: 1.1;
-  font-family: "Google Sans Bold";
+  font-family: "Subjectivity Black"
 }
+
 
 .greeting-nickname {
   font-size: 30px;
   line-height: 0px;
-  font-family: "Google Sans Bold Italic";
+  font-family: "Subjectivity Black";
 }
 
 .greeting-text-p {
@@ -50,10 +51,12 @@
   font-family: "Google Sans Medium";
 }
 
+.primeirafoto{ float: right;
+margin: 10px;}
 .greeting-image-div > * {
-  max-width: 50%;
-  margin-left: 150px;
-  height: auto;
+  max-width: 75%;
+  margin-left: px
+  height auto;
 }
 
 /* Media Query */
